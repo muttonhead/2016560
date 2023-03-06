@@ -9,6 +9,11 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          registry-url: https://npm.pkg.github.com
+          token: ${{ secrets.GITHUB_TOKEN }}
       - run: |
           npm ci
           cd packages/test
