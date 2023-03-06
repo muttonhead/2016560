@@ -1,0 +1,15 @@
+{
+  "name": "test",
+  "version": "0.1.0-rc.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muttonhead/2016560.git",
+    "directory": "packages/test",
+  "author": "",
+  "license": "ISC"
+}

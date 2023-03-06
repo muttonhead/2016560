@@ -1,0 +1,19 @@
+{
+  "name": "2016560",
+  "version": "1.0.0",
+  "description": "2016560",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auditlogic/product.git"
+  },
+  "author": "dsolis@neverfail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/auditlogic/product/issues"
+  },
+  "homepage": "https://github.com/auditlogic/product#readme",
+  "workspaces":  [
+    "packages/test"
+  ]
+}
